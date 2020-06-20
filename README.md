@@ -54,7 +54,20 @@ _Los resultados de coverage son ficticios, solo con el fin de mostrar un ejemplo
 
 _Jacoco calculara el coverage de los test de su repositorio._
 
-_En IntelliJ IDEA con correr los test con un click, también se ejecutaran automagicamente los mismos pasos._
+## Integracion de IntelliJ IDEA con Jacoco
+Por defecto IDEA utiliza su propia herramienta de code coverage, se debe cambiar en la configuracion de los test en el IDE.
+
+Las instrucciones para cambiar el **coverage runner** de IDEA por Jacoco son las siguientes:
+
+https://www.jetbrains.com/help/idea/configuring-code-coverage-measurement.html#options
+
+### Integración de Maven con IntelliJ IDEA
+
+Simpre se puede optar por usar la integración que ya trae IntelliJ IDEA
+
+![jacoco-idea-runner](https://raw.githubusercontent.com/LuisCusihuaman/java-getting-started/master/docs/jacoco-idea.png)
+
+Maven -> java-getting-started -> Lifecycle -> **test**, lanzará los tests y Jacoco generará el index.html con el reporte.
 
 ## Contribuir
 Las Pull Request son bienvenidas. 
