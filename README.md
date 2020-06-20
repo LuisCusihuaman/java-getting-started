@@ -41,6 +41,22 @@ Repositorio para que puedas empezar ya mismo a programar en Java.
  - Modelos en: /src/main/java/poo.coders 
  - Tests en: /src/test/java/poo.coders 
 
+ 
+## Ejemplo
+_Los resultados de coverage son ficticios, solo con el fin de mostrar un ejemplo._
+1. Compilar con Maven los modelos y sus tests
+
+    `    $ mvn test-compile`
+2. Correr los test, generará el reporte de coverage en **target/site/jacoco/index.html**
+
+    `    $ mvn test`
+
+![make-a-report](https://raw.githubusercontent.com/LuisCusihuaman/java-getting-started/master/docs/jacoco_coverage_report.png)
+
+_Jacoco calculara el coverage de los test de su repositorio._
+
+_En IntelliJ IDEA con correr los test con un click, también se ejecutaran automagicamente los mismos pasos._
+
 ## Contribuir
 Las Pull Request son bienvenidas. 
 Para cambios importantes, abra primero un issue para discutir qué le gustaría cambiar.
