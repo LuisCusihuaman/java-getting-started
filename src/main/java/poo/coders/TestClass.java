@@ -1,7 +1,10 @@
 package poo.coders;
 
 public class TestClass {
-    void saludar(){
+    public void saludar(){
         System.out.println("Hola Mundo! Soy Ezequiel.");
+    }
+    public static int sumar(int a, int b){
+        return (a+b);
     }
 }
